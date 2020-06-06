@@ -2,12 +2,10 @@
 <html>
 <head>
 	<title>HAK | EDUCATION </title>
-
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="fonts/stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 <body>
 	<div class="top-bar">Website is on maintenance mode</div>
@@ -23,32 +21,28 @@
     </ul>
     <span class="navbar-text">
     <ul class="navbar-nav mr-auto">
-      			<li class="nav-item active">
+      			<li class="nav-item  active-menu">
        				 <a class="nav-link" href="#">Home</a>
       			</li>
       			<li class="nav-item">
-       				 <a class="nav-link" href="#">About Us</a>
+       				 <a class="nav-link" href="about.html">About Us</a>
       			</li>
-      			<li class="nav-item dropdown">
-			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Blog
-			        </a>
-			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          <a class="dropdown-item" href="#">Guides</a>
-			          <a class="dropdown-item" href="#">Examination Tips</a>
-			        </div>
-			    </li>
-      			<li class="nav-item dropdown">
+      			<li class="nav-item">
+               <a class="nav-link" href="guides-blog.html">Blog</a>
+            </li>
+      			<li class="nav-item dropdown ">
 			        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			          Resources
 			        </a>
 			        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          <a class="dropdown-item" href="#">Past Papers</a>
-			          <a class="dropdown-item" href="#">Notes</a>
+			          <a class="dropdown-item" href="resources.html#oalevel">O/A Level</a>
+			          <a class="dropdown-item" href="resources.html#akueb">AKU-EB</a>
+			          <a class="dropdown-item" href="resources.html#ib">IB Diploma</a>
+			          <a class="dropdown-item" href="resources.html#federal">FederaL - FBISE</a>
 			        </div>
 			    </li>
 			    <li class="nav-item">
-        			<a class="nav-link" href="#">Contact Us</a>
+        			<a class="nav-link" href="contact.html">Contact Us</a>
       			</li>
       		</ul>
     </span>
@@ -93,10 +87,12 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<!-- Education Boards Section-->
 <div class="container">
 	<h1 class="heading">Education Boards</h1>
 	<div class="row">
 		<div class="col col-lg-3 col-md-12 col-sm-12">
+			<a href="resources.html#oalevel" class="home-a">
 			<div class=" edu-board-cards">
 				<img src="img/caie-logo.png" class="edu-logo">
 				<div>
@@ -105,18 +101,22 @@
 				</div>
 				<button type="button" class="btn btn-outline-primary">Resources</button>
 			</div>
+		</a>
 		</div>
 		<div class="col col-lg-3 col-md-12 col-sm-12">
-			<div class=" edu-board-cards-blue">
-				<img src="img/ib-logo.png" class="edu-logo">
-				<div>
-					<h3>IB Diploma</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at viverra mi, at varius risus. In sit amet elit ut urna porta fringilla. Etiam eu risus finibus, lacinia tortor a, posuere lacus.</p>
+			<a href="resources.html#ib" class="home-a">
+				<div class=" edu-board-cards-blue">
+					<img src="img/ib-logo.png" class="edu-logo">
+					<div>
+						<h3>IB Diploma</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at viverra mi, at varius risus. In sit amet elit ut urna porta fringilla. Etiam eu risus finibus, lacinia tortor a, posuere lacus.</p>
+					</div>
+					<button type="button" class="btn btn-outline-primary-grey">Resources</button>
 				</div>
-				<button type="button" class="btn btn-outline-primary-grey">Resources</button>
-			</div>
+			</a>
 		</div>
 		<div class="col col-lg-3 col-md-12 col-sm-12 ">
+			<a href="resources.html#akueb" class="home-a">
 			<div class=" edu-board-cards">
 				<img src="img/akueb-logo.png" class="edu-logo">
 				<div>
@@ -124,9 +124,10 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at viverra mi, at varius risus. In sit amet elit ut urna porta fringilla. Etiam eu risus finibus, lacinia tortor a, posuere lacus.</p>
 				</div>
 			<button type="button" class="btn btn-outline-primary">Resources</button>
-			</div>
+			</div></a>
 		</div>
 		<div class="col col-lg-3 col-md-12 col-sm-12">
+			<a href="resources.html#federal" class="home-a">
 			<div class=" edu-board-cards-blue">
 				<img src="img/fbise-logo.png" class="edu-logo">
 				<div>
@@ -135,8 +136,10 @@
 				</div>
 				<button type="button" class="btn btn-outline-primary-grey">Resources</button>
 			</div>
+		</a>
 		</div>
 	</div>
+	<!-- Why Choose Us Section-->
 	<h1 class="heading">Why Choose us?</h1>
 </div>
 <div style="width: 100%; overflow: hidden;">
@@ -188,6 +191,7 @@
 	</div>
 	</div>
 </div>
+<!-- Testimonial Section-->
 <div class="container" style="margin-top: 10px;">
 	<h1 class="heading">Testimonials</h1>
 </div>
@@ -199,7 +203,7 @@
 				<img src="img/test 1.png" class="test">
 				<div class="test-text">
 					<h4>Ahmed</h4>
-					<p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. Aenean<br>at viverra mi, at varius risus. </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at viverra mi, at varius risus. </p>
 				</div>
 			</div>
 		</div>
@@ -207,14 +211,14 @@
 				<img src="img/test 2.png" class="test">
 				<div class="test-text">
 					<h4>Hammad</h4>
-					<p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. Aenean<br>at viverra mi, at varius risus. </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at viverra mi, at varius risus. </p>
 				</div>			
 		</div>
 		<div class="col col-lg-3 col-md-6 col-sm-6">
 				<img src="img/test 3.png" class="test">
 				<div class="test-text">
 					<h4>Kashan</h4>
-					<p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit. Aenean<br>at viverra mi, at varius risus. </p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at viverra mi, at varius risus. </p>
 				</div>	
 		</div>
 		<div class="col col-lg-3 col-md-6 col-sm-6">
@@ -230,66 +234,73 @@
 
 	</div>
 </div>
+<!-- Blog Section-->
 <div class="container">
 	<h1 class="heading">Blog</h1>
 	<div class="row">
 		<div class="col col-lg-4 col-md-12 col-sm-12">
+			<a href="blog1.html" class="home-a">
 			<div>
 				<img src="img/Blog 1.jpg" class="blog">
 				<div class="blog-text">
-					<h3>Examination Tips</h3>
+					<h3>Step by Step: How to cover syllabus in 2 hours with easy technique</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at viverra mi, at varius risus. </p>
-		<div style="display: block; margin-right: auto; margin-left: auto;"><button type="button" class="btn btn-outline-primary">Read More</button></div>
+		<div style="display: block; margin-right: auto; margin-left: auto; margin-bottom: 50px;"><button type="button" class="btn btn-outline-primary">Read More</button></div>
 
 				</div>
 			</div>
+		</a>
 		</div>
 		<div class="col col-lg-4 col-md-12 col-sm-12" >
+			<a href="blog1.html" class="home-a">
 				<img src="img/Blog 2.jpg" class="blog">
 				<div class="blog-text">
 					<h3>Examination Tips</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at viverra mi, at varius risus. </p>
-		<div style="display: block; margin-right: auto; margin-left: auto;"><button type="button" class="btn btn-outline-primary">Read More</button></div>
+		<div style="display: block; margin-right: auto; margin-left: auto; margin-bottom: 50px;"><button type="button" class="btn btn-outline-primary">Read More</button></div>
 
-				</div>			
+				</div>	
+			</a>		
 		</div>
 		<div class="col col-lg-4 col-md-12 col-sm-12">
+			<a href="blog1.html" class="home-a">
 				<img src="img/Blog 3.jpg" class="blog">
 				<div class="blog-text">
 					<h3>Examination Tips</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at viverra mi, at varius risus. </p>
-		<div style="display: block; margin-right: auto; margin-left: auto;"><button type="button" class="btn btn-outline-primary">Read More</button></div>
+		<div style="display: block; margin-right: auto; margin-left: auto; margin-bottom: 50px;"><button type="button" class="btn btn-outline-primary">Read More</button></div>
 				</div>	
+			</a>
 		</div>
 	</div>
 	<div class="row">
-		<div style="display: block; margin-right: auto; margin-left: auto; width: 100%;""><button type="button" style="background: #3498db; color: white; width: 100%;"class="btn btn-outline-primary">For More Blogs Click Here</button></div>
+		<a href="guides-blog.html" style="width: 100%;"><div style="display: block; margin-right: auto; margin-left: auto; width: 100%;""><button type="button"class="btn moreblog-btn">For More Blogs Click Here</button></div></a>
 	</div>
 </div>
 <br>
 <br>
+<!-- Footer Section-->
 <footer style="overflow: hidden;">
 	<div class="container">
 	<div class="row">
-		<div class="col col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">
-			<h4>RESOURCES</h4>
-			<ul>
-				<li>Past Papers</li>
-				<li>Notes</li>
-				<li>Guide</li>
-				<li>Examination Tips</li>
-			</ul>
+		<div class="col col-lg-4 col-md-12 col-sm-12" style="margin-bottom: 10px;">
+			<h4>SUBSCRIBE US</h4>
+			<form action="subscribed.html" id="subscribe-form" method="POST">
+  				<input type="email" id="email" name="email" placeholder="abc@example.com" required="required">
+  				<input type="submit" value="Get updates on email" class="submit-btn">
+			</form>
+			<p class="subscribe-text">You will get our latest blog notifications on your provided email. Thank you!</p>
 		</div>
-		<div class="col col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">
-			<div class="fb-page" data-href="https://www.facebook.com/hakeducation" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" ><blockquote cite="https://www.facebook.com/hakeducation" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hakeducation">Hakeducation</a></blockquote></div>
+		<div class="col col-lg-4 col-md-12 col-sm-12" style="margin-bottom: 10px;">
+			<div class="fb-page" data-href="https://www.facebook.com/hakeducation" data-tabs="timeline" data-width="" data-height="468" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/hakeducation" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/hakeducation">Hakeducation</a></blockquote></div>
 		</div>
-		<div class="col col-lg-4 col-md-4 col-sm-12" style="margin-bottom: 10px;">
+		<div class="col col-lg-4 col-md-12 col-sm-12" style="margin-bottom: 10px;">
 			<h4>CONTACT</h4>
 			<ul>
-				<li><div class="con"><i class="fa fa-phone" aria-hidden="true"></i></div> +92 321 2575665</li>
-				<li><div class="con"><i class="fa fa-envelope" aria-hidden="true"></i></div> connect@hakeducation.com</li>
-				<li><div class="con"><i class="fa fa-facebook" aria-hidden="true"></i></div> www.facebook.com/hakeducation</li>
-				<li><div class="con"><i class="fa fa-instagram" aria-hidden="true"></i></div>@hakeducation</li>			
+				<li class="footer-list"><div class="con"><i class="fa fa-phone" aria-hidden="true"></i></div> +92 321 2575665</li>
+				<li class="footer-list"><div class="con"><i class="fa fa-envelope" aria-hidden="true"></i></div> connect@hakeducation.com</li>
+				<li class="footer-list"><div class="con"><i class="fa fa-facebook" aria-hidden="true"></i></div> www.facebook.com/hakeducation</li>
+				<li class="footer-list"><div class="con"><i class="fa fa-instagram" aria-hidden="true"></i></div>@hakeducation</li>			
 			</ul>
 		</div>
 	</div>
